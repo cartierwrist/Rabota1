@@ -26,8 +26,8 @@ private:
     const YEAR data = {2025, 9};
     YEAR end;
 public:
-    int startcap = 5000000; 
-    int years = 1;
+    int startcap = 2188890; 
+    int years = 20;
     float percent = 15.5f;
     int sum = startcap;
     
@@ -39,9 +39,9 @@ void expences(const YEAR& start, int Months, int& Sum)
 {
     int exp = 0;
     YEAR current = start;
-    static int salary = 65000;
-    static int foodmonth = 5000;
-    static int monthflat = 35000;
+    static int salary = 220000;
+    static int foodmonth = 30000;
+    static int monthflat = 50000;
     for (int i = 0; i < Months; i++) {
         
         if (current.month == 10) {
