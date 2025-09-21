@@ -1,15 +1,6 @@
 ﻿#include <iostream>
-#include <iomanip>
-#include <cmath> 
-#include <CTYPE.H>
-#include <conio.h> 
-#include <cstdlib>
-#include <ctime>
-#include <io.h>
-#include <fcntl.h>
-#include <cstring> 
-#include <string>
-#include <Windows.h>
+#include <cctype>
+#include <Windows.h>ы
 
 
 struct YEAR
